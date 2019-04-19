@@ -12,4 +12,4 @@ phase:
 artifacts:
     files:
         - '**/*' # display all files recursively
-    base-directory: 'public'
+    base-directory: public

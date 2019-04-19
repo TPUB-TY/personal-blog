@@ -11,4 +11,4 @@ phase:
 artifacts:
     files:
         - '**/*'
-    base-directory: public/
+    base-directory: public

@@ -1,0 +1,15 @@
+
+version: 2.0
+
+phase:
+    pre_build:
+        commands:
+            - npm install
+            - npm install -g hexo
+    build:
+        commands:
+            - hexo generate
+artifacts:
+    files:
+        - '**/*'
+    base-directory: 'public'

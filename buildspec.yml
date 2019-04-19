@@ -1,4 +1,3 @@
-
 version: 0.2
 
 phase:
@@ -11,5 +10,5 @@ phase:
             - hexo generate
 artifacts:
     files:
-        - '**/*' # display all files recursively
+        - **/* # display all files recursively
     base-directory: public
